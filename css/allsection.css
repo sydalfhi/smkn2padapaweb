@@ -1,0 +1,179 @@
+.second-section,
+.third-section,
+.fourth-section,
+.fifth-section {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+.second-section img,
+.third-section img,
+.fourth-section img,
+.fifth-section img {
+  border-radius: 10px;
+}
+.second-section p.titleNarasi,
+.third-section p.titleNarasi,
+.fourth-section p.titleNarasi,
+.fifth-section p.titleNarasi {
+  font-size: 16px;
+  margin-top: -6px;
+  text-align: left;
+}
+.second-section .judulBerita,
+.third-section .judulBerita,
+.fourth-section .judulBerita,
+.fifth-section .judulBerita {
+  margin-top: -10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.imageall,
+.imageall_secondSectoin {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.imageall_secondSectoin::before, .imageall::before {
+  z-index: 88;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  border-bottom-left-radius: 10px;
+  content: url("../asset/img/book-read-fill.svg");
+  text-align: center;
+  font-size: 13px;
+  color: white;
+}
+
+.imageall::before {
+  width: 50px;
+  height: 20px;
+}
+
+.imageall_secondSectoin::before {
+  width: 50px;
+  height: 20px;
+}
+
+.second-section *,
+.third-section *,
+.fourth-section *,
+.fifth-section * {
+  text-decoration: none;
+}
+.second-section .tombolSlide,
+.third-section .tombolSlide,
+.fourth-section .tombolSlide,
+.fifth-section .tombolSlide {
+  transform: scale(0.8);
+  color: white;
+}
+
+.third-section,
+.fourth-section,
+.fifth-section {
+  height: 800px;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+.third-section .mySwiper,
+.fourth-section .mySwiper,
+.fifth-section .mySwiper {
+  height: 480px;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.third-section .mySwiper .swiper-wrapper,
+.fourth-section .mySwiper .swiper-wrapper,
+.fifth-section .mySwiper .swiper-wrapper {
+  height: 300px;
+}
+.third-section .mySwiper .swiper-wrapper .swiperslidecard,
+.fourth-section .mySwiper .swiper-wrapper .swiperslidecard,
+.fifth-section .mySwiper .swiper-wrapper .swiperslidecard {
+  background-color: rgb(255, 255, 255);
+}
+.third-section .mySwiper .swiper-wrapper .swiperslidecard .card,
+.fourth-section .mySwiper .swiper-wrapper .swiperslidecard .card,
+.fifth-section .mySwiper .swiper-wrapper .swiperslidecard .card {
+  background-color: transparent;
+  border: none;
+}
+.third-section .mySwiper .swiper-wrapper .swiperslidecard .card .judulBerita,
+.fourth-section .mySwiper .swiper-wrapper .swiperslidecard .card .judulBerita,
+.fifth-section .mySwiper .swiper-wrapper .swiperslidecard .card .judulBerita {
+  margin-top: -10px;
+  color: black;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 768px) {
+  .mySwiper {
+    height: 380px;
+  }
+}
+.second-section h1.subJudul,
+.third-section h1.subJudul,
+.fourth-section h1.subJudul,
+.fifth-section h1.subJudul {
+  text-align: left;
+}
+
+.third-section {
+  margin-top: 400px;
+  height: 800px;
+}
+
+.second-section {
+  transform: translateY(50px);
+}
+.second-section .swiperslidecard {
+  transform: translateY(0px);
+  z-index: 999999;
+  background-color: black;
+  position: relative;
+  margin-bottom: -300px;
+}
+.second-section .swiperslidecard .card {
+  background-color: black;
+  margin-top: 35px;
+}
+.second-section .swiperslidecard .mySwiper {
+  overflow: hidden;
+  height: 450px;
+  background-color: transparent;
+  margin-top: -30px;
+}
+.second-section .swiperslidecard .mySwiper .swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.fourth-section,
+.fifth-section {
+  margin-top: -300px;
+}
+
+@media screen and (min-width: 768px) {
+  .second-section {
+    transform: translateY(-200px);
+  }
+  .swiperslidecard {
+    transform: translateY(0px);
+  }
+  .mySwiper {
+    height: 400px;
+  }
+  .third-section {
+    margin-top: 200px;
+    height: 530px;
+  }
+}/*# sourceMappingURL=allsection.css.map */

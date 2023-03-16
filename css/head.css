@@ -1,0 +1,111 @@
+//! Header dan Navigasi bar
+// berisi tentang satyle dari header
+
+
+//!Header =====================================================
+
+    header .rightHeaderItem {
+      width: 100vw;
+    }
+  
+    header .smkLogoText {
+      //navbrand
+      font-size: 16px;
+      font-weight: bold;
+    }
+  
+  
+ 
+  .btn-search {
+    //btn icon search
+    padding: 5px;
+    border: none;
+    transform: translate(25px, 3px) scale(1);
+
+  }
+  
+  #searchContent{
+      //inputseach
+      margin: auto;
+      width: 90%;
+      padding: 6px 30px;
+    }
+  
+  
+    #searchContent:placeholder {
+      color: gray;
+      font-size: 14px;
+    }
+  
+  
+  
+  
+  
+  
+  //! nanbar  ===========================================
+  .navbar-toggler {
+    //toggle navbar
+    border: none;
+    outline: none;
+  }
+  
+  
+  
+  
+  
+  
+  // ?dropdown ==============================
+  #arrowDropdownKejuruan,
+  #arrowDropdownLembaga {
+    transform: scale(1.1) translate(-5px);
+  }
+  
+  
+  .DmenuKejuruan {
+    transform: translate(0vw, 0);
+  }
+  
+  .DmenuLembaga {
+    transform: translate(0vw, 0);
+  }
+  
+  
+  
+  // ?link on hover
+  .onHover:hover a {
+    background-color: #3399fe;
+    color: white;
+  }
+  
+  
+  
+  // ! RESPONSIVE BREAK POIN ===================================================================== 
+  @media screen and (min-width:768px) {
+    #searchContent {
+      width: 350px;
+      padding: 50px 40px;
+    }
+  
+    .tombolSearch button {
+      transform: translate(35px, 20px) scale(1.1);
+    }
+  
+    #searchContent {
+      // inputsearch
+      margin: auto;
+      width: 300px;
+      padding: 0 35px;
+    }
+  
+  
+  
+  
+    // ?dropdown ==============================
+    .DmenuKejuruan {
+      transform: translate(43vw);
+    }
+  
+    .DmenuLembaga {
+      transform: translate(70vw);
+    }
+  }

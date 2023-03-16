@@ -1,0 +1,120 @@
+#grid_otherArtikel .card, .sectionSlide {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+#grid_otherArtikel .card img, .sectionSlide img {
+  border-radius: 10px;
+}
+#grid_otherArtikel .card p.titleNarasi, .sectionSlide p.titleNarasi {
+  font-size: 16px;
+  margin-top: -6px;
+  text-align: left;
+}
+#grid_otherArtikel .card .judulBerita, .sectionSlide .judulBerita {
+  margin-top: -10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.imageall,
+.imageall_secondSectoin {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.imageall_secondSectoin::before, .imageall::before {
+  z-index: 88;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  border-bottom-left-radius: 10px;
+  content: url("../asset/img/book-read-fill.svg");
+  text-align: center;
+  font-size: 13px;
+  color: white;
+}
+
+.imageall::before {
+  width: 50px;
+  height: 20px;
+}
+
+.imageall_secondSectoin::before {
+  width: 50px;
+  height: 20px;
+}
+
+.sectionSlide * {
+  text-decoration: none;
+}
+.sectionSlide .tombolSlide {
+  transform: scale(0.8);
+  color: white;
+}
+
+.sectionSlide {
+  height: 800px;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+.sectionSlide .mySwiper {
+  height: 480px;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.sectionSlide .mySwiper .swiper-wrapper {
+  height: 300px;
+}
+.sectionSlide .mySwiper .swiper-wrapper .swiperslidecard {
+  background-color: rgb(255, 255, 255);
+}
+.sectionSlide .mySwiper .swiper-wrapper .swiperslidecard .card {
+  background-color: transparent;
+  border: none;
+}
+.sectionSlide .mySwiper .swiper-wrapper .swiperslidecard .card .judulBerita {
+  margin-top: -10px;
+  color: black;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 768px) {
+  .mySwiper {
+    height: 380px;
+  }
+}
+#grid_otherArtikel .card p.titleNarasi {
+  margin-top: -6px;
+  font-size: 10px;
+}
+#grid_otherArtikel .card .judulBerita {
+  font-size: 12px;
+}
+#grid_otherArtikel .card .tanggalUpdate {
+  font-size: 10px;
+}
+@media screen and (min-width: 768px) {
+  #grid_otherArtikel .tanggalUpdate {
+    font-size: 16px;
+  }
+  #grid_otherArtikel p.titleNarasi {
+    font-size: 12px;
+  }
+  #grid_otherArtikel .judulBerita {
+    font-size: 12px;
+  }
+}
+
+.sectionSlide {
+  height: 600px;
+}
+.sectionSlide .card {
+  width: 18rem;
+}/*# sourceMappingURL=artikel_main.css.map */

@@ -1,0 +1,686 @@
+<!-- !===============================landing page website ========================= -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ?SWIPER JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <!-- !ENDSWIPER JS -->
+
+
+  <!-- ? css Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/body.css">
+  <link rel="stylesheet" href="css/head.css">
+  <link rel="stylesheet" href="css/sectionHeader.css">
+  <link rel="stylesheet" href="css/allsection.css">
+  <link rel="stylesheet" href="css/swiper.css">
+
+  <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+
+  <!-- !end css Bootstrap -->
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- end font -->
+
+  <!-- icon -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <!-- icon -->
+  <link rel="shortcut icon" href="asset/img/logosmk.png" type="image/x-icon">
+  <title>SMK N 2 PADANG PANJANG : Forza Smkeda</title>
+</head>
+
+
+
+
+
+<body>
+
+
+  <!-- ! header -->
+  <header>
+    <div
+      class="container-fluid bg-black py-3 py-md-0 d-flex flex-column flex-md-row align-items-center justify-content-between">
+      <div class="rightHeaderItem d-flex justify-content-center justify-content-md-start  align-items-center">
+        <img src="asset/img/logosmk.png" alt="logo smk" width="50px" class="me-2 ms-md-5"><span
+          class="text-white  fw-bold  font-tahoma smkLogoText  ">SMK NEGERI 2 PADANG PANJANG</span>
+      </div>
+
+
+
+      <!--search -->
+      <div class="leftHeaderItem me-md-5 py-3">
+        <form class="d-flex flex-column flex-md-row" role="search">
+          <!--  -->
+          <div class="d-flex mt- mt-md-0">
+            <div class="tombolSearch ">
+              <button type="submit" class="btn-search">
+                <img src="asset/img/search.svg" alt="">
+              </button>
+            </div>
+            <!--  -->
+            <input class="form-control me-2 py-1 font-tahoma" type="search" placeholder="Ketik kata kunci untuk mencari"
+              aria-label="Search" id="searchContent" autocomplete="off">
+          </div>
+        </form>
+      </div>
+
+
+    </div>
+  </header>
+  <!-- ! end header -->
+
+
+
+
+  <!-- !navigasi Bar -->
+  <nav class="navbar sticky-md-top   navbar-expand-lg bg-primary shadow-sm navbarContainer">
+    <div class="container-fluid">
+      <button class=" block d-md-none ms-auto"
+        style="transform: scale(1.5); border: none; outline: none; background: transparent;" type="button"
+        data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon d-none"></span>
+        <i class="ri-menu-3-fill text-white"></i>
+      </button>
+
+      <div class="collapse navbar-collapse mt-4 mt-md-0" id="navbarNavAltMarkup">
+        <div class="navbar-nav d-flex bg-primary justify-content-center m-auto">
+          <a class="nav-link text-white fw-bold mx-3 active" aria-current="page" href="#">Beranda</a>
+          <a class="nav-link text-white fw-bold mx-3" href="#">Profil</a>
+          <a class="nav-link text-white fw-bold mx-3" href="#">Kontak</a>
+          <!--  -->
+          <div class="" id="DmenuKejuruanLink">
+            <a class="nav-link text-white fw-bold mx-3 " type="link" data-bs-toggle="dropdown" aria-expanded="false"
+              href="#" id="DmenuKejuruanLink">Kejuruan <span><img id="arrowDropdownKejuruan"
+                  src="asset/img/arrow-drop-down-line.svg" alt="arrow"></span></a>
+            <ul class="dropdown-menu DmenuKejuruan">
+              <li class="onHover"><a class="dropdown-item" href="#">TKJ</a></li>
+              <li class="onHover"><a class="dropdown-item" href="#">RPL</a></li>
+              <li class="onHover"><a class="dropdown-item" href="#">MM</a></li>
+              <li class="onHover"><a class="dropdown-item" href="#">PSPT</a></li>
+            </ul>
+          </div>
+          <!--  -->
+          <a class="nav-link text-white fw-bold mx-3" href="#">Artikel</a>
+          <a class="nav-link text-white fw-bold mx-3" href="#">Prestasi</a>
+          <!--  -->
+          <div id="DmenuLembagaLink">
+            <a class="nav-link text-white fw-bold mx-3 " type="link" data-bs-toggle="dropdown" aria-expanded="false"
+              href="#">Lembaga <span><img id="arrowDropdownLembaga" src="asset/img/arrow-drop-down-line.svg"
+                  alt="arrow"></span></a>
+            <ul class="dropdown-menu DmenuLembaga">
+              <li class="onHover"><a class="dropdown-item" href="#">LSP</a></li>
+              <li class="onHover"><a class="dropdown-item" href="#">TEFA</a></li>
+              <li class="onHover"><a class="dropdown-item" href="#">BKK</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- !end navigasi bar -->
+
+
+
+
+
+  <!-- ?Section Header -->
+  <section class="sectionHeader overflow-x-hidden" id="sectionHeader">
+    <div class="textGroup">
+      <h1 class="text-white font-tahoma ">SMK Negeri 2 Padang Panjang </h1>
+      <p class="text-white font-tahoma w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ullam
+        aspernatur molestias, porro expedita iure sequi vitae necessitatibus impedit, cumque soluta amet fugiat laborum
+        eum.</p>
+    </div>
+
+
+  </section>
+  <!-- !endSection Header -->
+
+
+
+
+
+
+
+
+  <!-- !swiper slide  header-->
+  <section class="second-section">
+    <div class="swiperslidecard px-md-5 px-3  d-flex justify-content-center align-items-center">
+      <div #swiperRef="" class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+          <!--todo ============================================== -->
+          <div class="swiper-slide">
+            <a href="#">
+
+              <div class="card" style="border: none;">
+                <div class="imageall_secondSectoin">
+                  <img src="nullgambar.jpg" class="card-img-top rounded-3 imageall img-fluid" alt="nullgambar">
+                </div>
+              </div>
+              <div class="card-body text-start font-tahoma ">
+                <p class="card-text">
+                  <p class="text-warning  titleNarasi ">Narasi Smekda</p>
+                  <p class="judulBerita text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                    nesciunt.
+                  </p>
+                  <p class="tanggalUpdate text-white-50 " style="font-size: 14px; margin-top: -10px;">11 Januari 2023
+                  </p>
+                </p>
+              </div>
+            </a>
+          </div>
+          <!-- todo ============================================== -->
+          <div class="swiper-slide">
+            <a href="#">
+              <div class="card" style="border: none;">
+                <div class="imageall_secondSectoin">
+                  <img src="nullgambar.jpg" class="card-img-top rounded-3 imageall img-fluid" alt="nullgambar">
+                </div>
+              </div>
+              <div class="card-body text-start font-tahoma ">
+                <p class="card-text">
+                  <p class="text-warning  titleNarasi ">Narasi Smekda</p>
+                  <p class="judulBerita text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                    nesciunt.
+                  </p>
+                  <p class="tanggalUpdate text-white-50 " style="font-size: 14px; margin-top: -10px;">11 Januari 2023
+                  </p>
+                </p>
+              </div>
+            </a>
+          </div>
+          <!--todo  ============================================== -->
+          <div class="swiper-slide">
+            <a href="#">
+              <div class="card" style="border: none;">
+                <div class="imageall_secondSectoin">
+                  <img src="nullgambar.jpg" class="card-img-top rounded-3 imageall img-fluid" alt="nullgambar">
+                </div>
+              </div>
+              <div class="card-body text-start font-tahoma ">
+                <p class="card-text">
+                  <p class="text-warning  titleNarasi ">Narasi Smekda</p>
+                  <p class="judulBerita text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                    nesciunt.
+                  </p>
+                  <p class="tanggalUpdate text-white-50 " style="font-size: 14px; margin-top: -10px;">11 Januari 2023
+                  </p>
+                </p>
+              </div>
+            </a>
+          </div>
+          <!-- todo ============================================== -->
+          <div class="swiper-slide">
+            <a href="#">
+              <div class="card" style="border: none;">
+                <div class="imageall_secondSectoin">
+                  <img src="nullgambar.jpg" class="card-img-top rounded-3 imageall img-fluid" alt="nullgambar">
+                </div>
+              </div>
+              <div class="card-body text-start font-tahoma ">
+                <p class="card-text">
+                  <p class="text-warning  titleNarasi ">Narasi Smekda</p>
+                  <p class="judulBerita text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                    nesciunt.
+                  </p>
+                  <p class="tanggalUpdate text-white-50 " style="font-size: 14px; margin-top: -10px;">11 Januari 2023
+                  </p>
+                </p>
+              </div>
+            </a>
+          </div>
+          <!-- todo ============================================== -->
+          <div class="swiper-slide">
+            <a href="#">
+              <div class="card" style="border: none;">
+                <div class="imageall_secondSectoin">
+                  <img src="nullgambar.jpg" class="card-img-top rounded-3 imageall img-fluid" alt="nullgambar">
+                </div>
+              </div>
+              <div class="card-body text-start font-tahoma ">
+                <p class="card-text">
+                  <p class="text-warning  titleNarasi ">Narasi Smekda</p>
+                  <p class="judulBerita text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                    nesciunt.
+                  </p>
+                  <p class="tanggalUpdate text-white-50 " style="font-size: 14px; margin-top: -10px;">11 Januari 2023
+                  </p>
+                </p>
+              </div>
+            </a>
+          </div>
+          <!-- todo ============================================== -->
+        </div>
+      </div>
+      <div class="swiper-button-next font-tahoma tombolSlide"></div>
+      <div class=" swiper-button-prev font-tahoma tombolSlide"></div>
+    </div>
+    </div>
+  </section>
+
+  <!-- ! end swiper slide  header-->
+
+
+
+
+
+
+
+
+
+
+
+  <!-- ! third section -->
+
+  <section class="third-section container-fluid  mb-5  ">
+
+    <div class=" judulSection container">
+      <h1 class=" subJudul ">
+        Prestasi
+      </h1>
+      <a href="#" class=" d-block">lihat Semua</a>
+    </div>
+    <!-- !swiper slide -->
+    <div #swiperRef="" class="swiper-container mySwiper container" ">
+      <div class=" swiper-wrapper">
+      <!--todo ============================================== -->
+      <div class="swiper-slide px-1 px-md-0">
+        <a href="artikel.html">
+          <div class="card" style="border: none;">
+            <div class="imageall">
+              <img src="nullgambar.jpg" class="card-img-top rounded-3" alt="nullgambar">
+            </div>
+            <div class="card-body text-start font-tahoma ">
+              <p class="card-text">
+                <p class="text-primary  titleNarasi ">Narasi Smekda • <span class="text-warning">Artikel</span></p>
+                <h5 class="judulBerita text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                  nesciunt.
+                </h5>
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!--todo ============================================== -->
+      <div class="swiper-slide px-1 px-md-0">
+        <a href="artikel.html">
+          <div class="card" style="border: none;">
+            <div class="imageall">
+              <img src="nullgambar.jpg" class="card-img-top rounded-3" alt="nullgambar">
+            </div>
+            <div class="card-body text-start font-tahoma ">
+              <p class="card-text">
+                <p class="text-primary  titleNarasi ">Narasi Smekda • <span class="text-warning">Artikel</span></p>
+                <h5 class="judulBerita text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                  nesciunt.
+                </h5>
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!--todo ============================================== -->
+      <div class="swiper-slide px-1 px-md-0">
+        <a href="#">
+          <div class="card" style="border: none;">
+            <div class="imageall">
+              <img src="nullgambar.jpg" class="card-img-top rounded-3" alt="nullgambar">
+            </div>
+            <div class="card-body text-start font-tahoma ">
+              <p class="card-text">
+                <p class="text-primary  titleNarasi ">Narasi Smekda • <span class="text-warning">Artikel</span></p>
+                <h5 class="judulBerita text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                  nesciunt.
+                </h5>
+                <!-- <p class="tanggalUpdate">11 Januari 2023</p> -->
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!--todo ============================================== -->
+      <div class="swiper-slide px-1 px-md-0">
+        <a href="#">
+          <div class="card" style="border: none;">
+            <div class="imageall">
+              <img src="nullgambar.jpg" class="card-img-top rounded-3" alt="nullgambar">
+            </div>
+            <div class="card-body text-start font-tahoma ">
+              <p class="card-text">
+                <p class="text-primary  titleNarasi ">Narasi Smekda • <span class="text-warning">Artikel</span></p>
+                <h5 class="judulBerita text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                  nesciunt.
+                </h5>
+                <!-- <p class="tanggalUpdate">11 Januari 2023</p> -->
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!--todo ============================================== -->
+
+      <div class="swiper-slide px-1 px-md-0">
+        <a href="#">
+          <div class="card" style="border: none;">
+            <div class="imageall">
+              <img src="nullgambar.jpg" class="card-img-top rounded-3" alt="nullgambar">
+            </div>
+            <div class="card-body text-start font-tahoma ">
+              <p class="card-text">
+                <p class="text-primary  titleNarasi ">Narasi Smekda • <span class="text-warning">Artikel</span></p>
+                <h5 class="judulBerita text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                  nesciunt.
+                </h5>
+                <!-- <p class="tanggalUpdate">11 Januari 2023</p> -->
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!--todo ============================================== -->
+    </div>
+    <!-- !end swiper slide -->
+    <div class="swiper-button-next d-none d-md-block font-tahoma swiperNext"></div>
+
+    <div class="swiper-button-prev d-none d-md-block font-tahoma swiperPrev"></div>
+    <div class="swiper-pagination"></div>
+    </div>
+  </section>
+  <!-- ! end third section -->
+
+
+
+
+
+  <!-- ! fourth section -->
+
+  <section class="fourth-section container-fluid mt-md-4  mb-5 mb-md-0">
+    <div class=" judulSection container">
+      <h1 class=" subJudul ">
+        Pengumuman
+      </h1>
+    </div>
+
+    <div class="container" style="margin-top: 90px;">
+      <div class="row">
+        <div class="col-12 col-md-6 leftItem">
+          <div class="imageall">
+            <img src="nullgambar.jpg" style="width: 600px;" alt="gambar" class="rounded-3 img-fluid ratio-16x9 ">
+          </div>
+        </div>
+        <!--todo ============================================== -->
+        <div class="col-12 col-md-6 d-flex flex-column justify-content-between  align-items-start rightItem mt-2">
+
+          <div class="d-flex justify-content-start align-items-center px-2">
+            <a class="text-decoration-none text-primary text-capitalize" href="#">Narasi Daily </a>
+            <span class=" px-3 "> • </span>
+            <a class="text-decoration-none text-primary text-capitalize" href="#"> Professional & Career</a>
+          </div>
+
+          <div class="d-flex justify-content-start align-content-center flex-column my-3 TextBerita px-2">
+            <h1 class="judulBerita fw-bold fs-3">Apa itu Corporate? Pengertian, Jenis, dan Struktur</h1>
+            <p class=" d-none d-md-block paragrafBerita">Corporate merupakan istilah yang tak asing lagi di masa
+              kini. Sudah banyak
+              corporate yang
+              berdiri saat
+              ini.
+              Istilah ini berasal dari bahasa Inggris yan ...</p>
+          </div>
+
+
+          <div class="d-flex justify-content-start align-content-center px-3 footerItem" style="margin-top: -10px;">
+            <a class="d-block d-md-none text-decoration-none text-primary text-capitalize fs-6" href="#"> Professional &
+              Career</a>
+            <p class="tanggalUpdate " style="font-size: 14px;">19 Februari 2023 03:41 WIB</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- ! fifth-section -->
+
+  <section class="fifth-section container-fluid mb-5 mb-md-0 px-2">
+    <div class=" judulSection container">
+      <h1 class=" subJudul ">
+        Artikel
+      </h1>
+      <a href="#" class=" d-block">lihat Semua</a>
+    </div>
+    <!-- !swiper slide -->
+    <div #swiperRef="" class="swiper-container mySwiper container ">
+      <div class=" swiper-wrapper">
+        <!--todo ============================================== -->
+        <div class="swiper-slide px-1 px-md-0">
+          <a href="#">
+            <div class="card" style="border: none;">
+              <div class="imageall">
+                <img src="nullgambar.jpg" class="card-img-top rounded-3" alt="nullgambar">
+              </div>
+              <div class="card-body text-start font-tahoma ">
+                <p class="card-text">
+                  <p class="text-primary  titleNarasi ">Narasi Smekda • <span class="text-warning">Artikel</span></p>
+                  <h5 class="judulBerita text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                    nesciunt.
+                  </h5>
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!--todo ============================================== -->
+        <div class="swiper-slide px-1 px-md-0">
+          <a href="#">
+            <div class="card" style="border: none;">
+              <div class="imageall">
+                <img src="nullgambar.jpg" class="card-img-top rounded-3" alt="nullgambar">
+              </div>
+              <div class="card-body text-start font-tahoma ">
+                <p class="card-text">
+                  <p class="text-primary  titleNarasi ">Narasi Smekda • <span class="text-warning">Artikel</span></p>
+                  <h5 class="judulBerita text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                    nesciunt.
+                  </h5>
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!--todo ============================================== -->
+        <div class="swiper-slide px-1 px-md-0">
+          <a href="#">
+            <div class="card" style="border: none;">
+              <div class="imageall">
+                <img src="nullgambar.jpg" class="card-img-top rounded-3" alt="nullgambar">
+              </div>
+              <div class="card-body text-start font-tahoma ">
+                <p class="card-text">
+                  <p class="text-primary  titleNarasi ">Narasi Smekda • <span class="text-warning">Artikel</span></p>
+                  <h5 class="judulBerita text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                    nesciunt.
+                  </h5>
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!--todo ============================================== -->
+        <div class="swiper-slide px-1 px-md-0">
+          <a href="#">
+            <div class="card" style="border: none;">
+              <div class="imageall">
+                <img src="nullgambar.jpg" class="card-img-top rounded-3" alt="nullgambar">
+              </div>
+              <div class="card-body text-start font-tahoma ">
+                <p class="card-text">
+                  <p class="text-primary  titleNarasi ">Narasi Smekda • <span class="text-warning">Artikel</span></p>
+                  <h5 class="judulBerita text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                    nesciunt.
+                  </h5>
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!--todo ============================================== -->
+        <div class="swiper-slide px-1 px-md-0">
+          <a href="#">
+            <div class="card" style="border: none;">
+              <div class="imageall">
+                <img src="nullgambar.jpg" class="card-img-top rounded-3" alt="nullgambar">
+              </div>
+              <div class="card-body text-start font-tahoma ">
+                <p class="card-text">
+                  <p class="text-primary  titleNarasi ">Narasi Smekda • <span class="text-warning">Artikel</span></p>
+                  <h5 class="judulBerita text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                    nesciunt.
+                  </h5>
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!--todo ============================================== -->
+      </div>
+      <div class="swiper-button-next d-none d-md-block font-tahoma swiperNext"></div>
+
+      <div class="swiper-button-prev d-none d-md-block font-tahoma swiperPrev"></div>
+
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+  <!-- ! end fifth-section -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer class="w-100 bg-black p-5 ">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center flex-column flex-md-row">
+
+        <!--todo ============================================== -->
+        <div class="mt-4 mt-md-0 d d-flex justify-content-between align-items-center flex-column flex-md-row ">
+          <img src="asset/img/logosmk.png" alt="logo smk" width="50px" class="me-2"><span
+            class="text-white  fw-bold  font-tahoma smkLogoText ">SMK NEGERI 2 PADANG PANJANG</span>
+        </div>
+        <!--todo ============================================== -->
+        <div class="mt-4 mt-md-0 ">
+          <div class="d-flex justify-content-center align-items-center flex-column">
+            <div class="d-flex justify-content-center align-items-center flex-column flex-wrap flex-md-row">
+              <a class="text-decoration-none text-white my-1 my-md-1 mx-md-2" href="#">Link Halaman 1</a>
+              <a class="text-decoration-none text-white my-1 my-md-1 mx-md-2" href="#">Link Halaman 2</a>
+              <a class="text-decoration-none text-white my-1 my-md-1 mx-md-2" href="#">Link Halaman 3</a>
+              <a class="text-decoration-none text-white my-1 my-md-1 mx-md-2" href="#">Link Halaman 4</a>
+              <a class="text-decoration-none text-white my-1 my-md-1 mx-md-2" href="#">Link Halaman 5</a>
+            </div>
+          </div>
+        </div>
+        <!--todo ============================================== -->
+        <div class="d-flex justify-content-center  align-items-center mt-4 mt-md-0 " style="width: 30%;">
+          <!-- twitter -->
+          <a class="linkSocialMeida mx-1" href="#">
+            <img src="asset/img/twitter.svg" alt="twitter">
+          </a>
+          <!-- instagram -->
+          <a class="linkSocialMeida mx-1" href="#">
+            <img src="asset/img/instagram.svg" alt="instagram">
+          </a>
+          <!-- facebook -->
+          <a class="linkSocialMeida mx-1" href="#">
+            <img src="asset/img/facebook.svg" alt="facebook">
+          </a>
+          <!-- youtube -->
+          <a class="linkSocialMeida mx-1" href="#">
+            <img src="asset/img/youtbe.svg" alt="youtbe">
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!--todo ============================================== -->
+  <div class="w-100 bg-black p-2 ">
+    <p class="text-center fw-light text-white-50">© 2023 SMK N 2 PADANG PANJANG | All rights reserved.</p>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <!-- ? javascript -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/navbar.js"></script>
+  <script>
+    let banyakSlide = 4;
+    let lebarWindow = window.innerWidth;
+
+
+    if (lebarWindow < 768) {
+      banyakSlide = 1;
+    } else if (lebarWindow >= 768 && lebarWindow <= 1000) {
+      banyakSlide = 2;
+    }
+
+
+    var swiper = new Swiper('.mySwiper', {
+      slidesPerView: `${banyakSlide}`,
+      centeredSlides: false,
+      spaceBetween: 10,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+  <!-- !end javascript -->
+</body>
+
+</html>
